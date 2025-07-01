@@ -6,7 +6,10 @@
         }
     ],
     "require": {
-        "solutions-cvhu/syncer": "^1.0"
+        "solutions-cvhu/syncer": "^1.0",
+        "solutions-cvhu/syncer-ovoko": "^1.0",
+        "solutions-cvhu/syncer-totalparts": "^1.0",
+        "solutions-cvhu/syncer-francecasse": "^1.0"
     },
     "scripts": {
         "post-install-cmd": "@installAdmin",
@@ -15,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Customer\\Syncer\\": "src/"
+            "Bazin\\Syncer\\": "src/"
         }
     }
 }

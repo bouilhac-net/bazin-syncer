@@ -10,6 +10,7 @@ else
     cd /app
     /usr/local/bin/php ./vendor/bin/syncer ovoko:vehicles:clean
     /usr/local/bin/php ./vendor/bin/syncer ovoko:parts:clean
+    /usr/local/bin/php ./vendor/bin/syncer totalparts:parts:clean
 
     rm "$RUNNING_FILE"
 fi

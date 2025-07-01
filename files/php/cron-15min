@@ -11,6 +11,7 @@ else
     /usr/local/bin/php ./vendor/bin/syncer opisto:parts:sync --allow-in-parc
     /usr/local/bin/php ./vendor/bin/syncer ovoko:vehicles:sync
     /usr/local/bin/php ./vendor/bin/syncer ovoko:parts:sync
+    /usr/local/bin/php ./vendor/bin/syncer totalparts:parts:sync
 
     rm "$RUNNING_FILE"
 fi
