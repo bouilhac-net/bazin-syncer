@@ -1,0 +1,36 @@
+services:
+  db:
+    image: mariadb:10.11
+    volumes:
+      - "./files/db/conf.d/:/etc/mysql/conf.d/"
+      - "./data/db:/var/lib/mysql"
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+      - TZ=${TIMEZONE}
+
+  php:
+    image: ghcr.io/ybouilhac/php-fpm:8.2
+    volumes:
+      - ".:/app"
+      - "./files/php/php.ini.dev:/usr/local/etc/php/php.ini"
+    environment:
+      - TZ=${TIMEZONE}
+
+  nginx:
+    image: ghcr.io/ybouilhac/nginx:1.25
+    volumes:
+      - "./files/nginx/nginx.conf.dev:/etc/nginx/nginx.conf"
+      - ".:/app"
+    environment:
+      - TZ=${TIMEZONE}
+    ports:
+      - "80:80"
+      - "443:443"
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"

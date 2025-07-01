@@ -1,0 +1,15 @@
+#!/bin/sh
+
+RUNNING_FILE='/tmp/syncer-cron-hourly-running'
+
+if [ -f "$RUNNING_FILE" ]; then
+    exit 0
+else
+    touch "$RUNNING_FILE"
+
+    cd /app
+    /usr/local/bin/php ./vendor/bin/syncer ovoko:vehicles:clean
+    /usr/local/bin/php ./vendor/bin/syncer ovoko:parts:clean
+
+    rm "$RUNNING_FILE"
+fi

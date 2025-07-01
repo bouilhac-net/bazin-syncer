@@ -1,0 +1,16 @@
+#!/bin/sh
+
+RUNNING_FILE='/tmp/syncer-cron-running'
+
+if [ -f "$RUNNING_FILE" ]; then
+    exit 0
+else
+    touch "$RUNNING_FILE"
+
+    cd /app
+    /usr/local/bin/php ./vendor/bin/syncer opisto:parts:sync --allow-in-parc
+    /usr/local/bin/php ./vendor/bin/syncer ovoko:vehicles:sync
+    /usr/local/bin/php ./vendor/bin/syncer ovoko:parts:sync
+
+    rm "$RUNNING_FILE"
+fi

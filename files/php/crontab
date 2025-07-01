@@ -1,0 +1,14 @@
+# do daily/weekly/monthly maintenance
+# min   hour    day     month   weekday command
+*/15    *       *       *       *       run-parts /etc/periodic/15min
+0       *       *       *       *       run-parts /etc/periodic/hourly
+0       2       *       *       *       run-parts /etc/periodic/daily
+0       3       *       *       6       run-parts /etc/periodic/weekly
+0       5       1       *       *       run-parts /etc/periodic/monthly
+
+
+# solutions-cvhu/syncer
+*/15    *       *       *       *       /app/files/php/cron-15min
+10      *       *       *       *       /app/files/php/cron-hourly
+2       0       *       *       *       chown -R www-data:www-data /app/var
+5       4       *       *       *       /app/files/php/cron-daily

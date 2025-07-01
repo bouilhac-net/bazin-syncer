@@ -1,0 +1,11 @@
+/.env
+/config.php
+/data/*
+/files/nginx/.htpasswd
+/files/nginx/.htpasswd-api
+/var/*/*
+/vendor/
+/web/
+
+.DS_Store
+!.gitkeep

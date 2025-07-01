@@ -1,0 +1,19 @@
+[mysqld]
+sql-mode=NO_ENGINE_SUBSTITUTION
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+
+# Fine-tuning
+max_connections                 = 32
+query_cache_size                = 1M
+thread_cache_size               = 0
+sort_buffer_size                = 64k
+bulk_insert_buffer_size         = 0
+tmp_table_size                  = 512k
+max_heap_table_size             = 512k
+key_buffer_size                 = 1M
+read_buffer_size                = 32k
+read_rnd_buffer_size            = 8k
+innodb_buffer_pool_size         = 8M
+innodb_log_buffer_size          = 32k
+performance_schema              = off

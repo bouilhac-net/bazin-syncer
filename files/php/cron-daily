@@ -1,0 +1,16 @@
+#!/bin/sh
+
+RUNNING_FILE='/tmp/syncer-cron-daily-running'
+
+if [ -f "$RUNNING_FILE" ]; then
+    exit 0
+else
+    touch "$RUNNING_FILE"
+
+    cd /app
+    YESTERDAY=`php -r '$y=new \DateTimeImmutable("yesterday");echo $y->format("Y-m-d");'`
+    /usr/local/bin/php ./vendor/bin/syncer opisto:parts:sync --from="$YESTERDAY" --to="$YESTERDAY" --allow-in-parc --no-history
+    /usr/local/bin/php ./vendor/bin/syncer opisto:vehicles:sync:missing-registration
+
+    rm "$RUNNING_FILE"
+fi

@@ -1,0 +1,36 @@
+services:
+  db:
+    image: mariadb:10.11
+    volumes:
+      - "/home/docker/syncer/files/db/conf.d:/etc/mysql/conf.d"
+      - "/home/docker/syncer/data/db:/var/lib/mysql"
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_DATABASE=
+      - MYSQL_USER=
+      - MYSQL_PASSWORD=
+      - TZ=Europe/Paris
+    restart: always
+
+  php:
+    image: ghcr.io/ybouilhac/php-fpm:8.2
+    volumes:
+      - "/home/docker/syncer:/app"
+      - "/home/docker/syncer/files/php/php.ini.prod:/usr/local/etc/php/php.ini"
+      # - "/home/docker/syncer/files/php/crontab:/var/spool/cron/crontabs/root"
+    environment:
+      - TZ=Europe/Paris
+    command: /bin/sh -c 'crond && php-fpm'
+    restart: always
+
+  nginx:
+    image: ghcr.io/ybouilhac/nginx:1.25
+    volumes:
+      - "/home/docker/syncer/files/nginx/nginx.conf.prod:/etc/nginx/nginx.conf"
+      - "/home/docker/syncer:/app"
+    environment:
+      - TZ=Europe/Paris
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: always

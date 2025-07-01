@@ -1,0 +1,21 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.solutions-cvhu.fr"
+        }
+    ],
+    "require": {
+        "solutions-cvhu/syncer": "^1.0"
+    },
+    "scripts": {
+        "post-install-cmd": "@installAdmin",
+        "post-update-cmd": "@installAdmin",
+        "installAdmin": "cp -r ./vendor/solutions-cvhu/syncer/web/ ./"
+    },
+    "autoload": {
+        "psr-4": {
+            "Customer\\Syncer\\": "src/"
+        }
+    }
+}

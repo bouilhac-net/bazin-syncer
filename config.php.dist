@@ -1,0 +1,22 @@
+<?php
+
+define('LOG_DIR', ROOT_DIR.'/var/logs');
+define('CACHE_DIR', ROOT_DIR.'/var/cache');
+
+$pdo = new PDO('mysql:host=db;dbname=DBNAME', 'DBUSER', 'DBPASSWORD');
+
+$config = [
+    'global' => [
+        'pdo' => $pdo,
+        'log_dir' => LOG_DIR,
+        'telegram_token' => '6786323199:AAEK-_SYce01klrLgsBKe-wXG1DAjryRgDk',
+        'telegram_channel' => '',
+    ],
+    'opisto' => [
+        'api_username' => '',
+        'api_password' => '',
+        'api_secret' => '',
+        'api_casse' => 0,
+        'api_token_file' => CACHE_DIR.'/opisto-token',
+    ],
+];
