@@ -335,17 +335,17 @@
         },
         {
             "name": "solutions-cvhu/syncer",
-            "version": "v1.7.0",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer.git",
-                "reference": "5998c87aa43bc7848510b8b7eae62f1861237117"
+                "reference": "a16a9eac0501f1ef126ca708527a4f8b5a140105"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-5998c87aa43bc7848510b8b7eae62f1861237117-zip-c8ab2e.tar",
-                "reference": "5998c87aa43bc7848510b8b7eae62f1861237117",
-                "shasum": "0f7d7f039cc83dd236ef60a5b450d738680e494f"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-a16a9eac0501f1ef126ca708527a4f8b5a140105-zip-9e79e6.tar",
+                "reference": "a16a9eac0501f1ef126ca708527a4f8b5a140105",
+                "shasum": "5496c832a6fae778d7bd22296fd80cc6acd61617"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -380,10 +380,10 @@
             ],
             "description": "Stock platform for CVHU",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.7.0",
+                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.7.2",
                 "issues": "https://github.com/solutions-cvhu/syncer/issues"
             },
-            "time": "2025-07-01T18:04:55+00:00"
+            "time": "2025-07-02T08:21:51+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-francecasse",
@@ -470,17 +470,17 @@
         },
         {
             "name": "solutions-cvhu/syncer-ovoko",
-            "version": "v1.0.3",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer-ovoko.git",
-                "reference": "8c9a486d11ffb15aa2916c856becf5af9cc5efc5"
+                "reference": "8364a4c4a35a4115824d367ff490e7f9a91c4000"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-ovoko/solutions-cvhu-syncer-ovoko-8c9a486d11ffb15aa2916c856becf5af9cc5efc5-zip-ff4716.tar",
-                "reference": "8c9a486d11ffb15aa2916c856becf5af9cc5efc5",
-                "shasum": "97560f2166143232ab164564e5ff932c9949da1f"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-ovoko/solutions-cvhu-syncer-ovoko-8364a4c4a35a4115824d367ff490e7f9a91c4000-zip-7bf788.tar",
+                "reference": "8364a4c4a35a4115824d367ff490e7f9a91c4000",
+                "shasum": "359bad969b93784cbe718731b58c76a561fc59b9"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -508,10 +508,10 @@
             ],
             "description": "Syncer module for Ovoko",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer-ovoko/tree/v1.0.3",
+                "source": "https://github.com/solutions-cvhu/syncer-ovoko/tree/v1.1.0",
                 "issues": "https://github.com/solutions-cvhu/syncer-ovoko/issues"
             },
-            "time": "2025-06-10T13:48:42+00:00"
+            "time": "2025-07-02T10:29:26+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-totalparts",
