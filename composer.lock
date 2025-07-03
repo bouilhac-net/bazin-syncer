@@ -253,17 +253,17 @@
         },
         {
             "name": "solutions-cvhu/opisto-api",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/opisto-api.git",
-                "reference": "bef5fc67723493081ad3d6735f218cc35d24e35e"
+                "reference": "c3d2a7c14f0e6c7ad13fcca245358c49b7548cd9"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/opisto-api/solutions-cvhu-opisto-api-bef5fc67723493081ad3d6735f218cc35d24e35e-zip-83bcec.tar",
-                "reference": "bef5fc67723493081ad3d6735f218cc35d24e35e",
-                "shasum": "ea408b71fb311281e7a69328997c61c53e1ed05f"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/opisto-api/solutions-cvhu-opisto-api-c3d2a7c14f0e6c7ad13fcca245358c49b7548cd9-zip-a5549a.tar",
+                "reference": "c3d2a7c14f0e6c7ad13fcca245358c49b7548cd9",
+                "shasum": "53a84d323772e3389f4396d4b62bc13dc1f6bb83"
             },
             "require": {
                 "php": ">=8.2",
@@ -287,10 +287,10 @@
             ],
             "description": "Library for Opisto's API",
             "support": {
-                "source": "https://github.com/solutions-cvhu/opisto-api/tree/v1.1.1",
+                "source": "https://github.com/solutions-cvhu/opisto-api/tree/v1.1.2",
                 "issues": "https://github.com/solutions-cvhu/opisto-api/issues"
             },
-            "time": "2025-06-05T14:19:01+00:00"
+            "time": "2025-07-02T13:47:18+00:00"
         },
         {
             "name": "solutions-cvhu/ovoko-api",
@@ -335,17 +335,17 @@
         },
         {
             "name": "solutions-cvhu/syncer",
-            "version": "v1.7.2",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer.git",
-                "reference": "a16a9eac0501f1ef126ca708527a4f8b5a140105"
+                "reference": "3930f021cadd852a0b3ff7af9fe84915bae74e1f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-a16a9eac0501f1ef126ca708527a4f8b5a140105-zip-9e79e6.tar",
-                "reference": "a16a9eac0501f1ef126ca708527a4f8b5a140105",
-                "shasum": "5496c832a6fae778d7bd22296fd80cc6acd61617"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-3930f021cadd852a0b3ff7af9fe84915bae74e1f-zip-7b072a.tar",
+                "reference": "3930f021cadd852a0b3ff7af9fe84915bae74e1f",
+                "shasum": "034f909f4bbb6fe2b17e3cc50362d99a223f5661"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -380,10 +380,10 @@
             ],
             "description": "Stock platform for CVHU",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.7.2",
+                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.8.0",
                 "issues": "https://github.com/solutions-cvhu/syncer/issues"
             },
-            "time": "2025-07-02T08:21:51+00:00"
+            "time": "2025-07-03T16:09:56+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-francecasse",
