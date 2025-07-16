@@ -335,17 +335,17 @@
         },
         {
             "name": "solutions-cvhu/syncer",
-            "version": "v1.8.0",
+            "version": "v1.8.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer.git",
-                "reference": "3930f021cadd852a0b3ff7af9fe84915bae74e1f"
+                "reference": "09e84841b7511b1301afdf0b093d7b04120c4d89"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-3930f021cadd852a0b3ff7af9fe84915bae74e1f-zip-7b072a.tar",
-                "reference": "3930f021cadd852a0b3ff7af9fe84915bae74e1f",
-                "shasum": "034f909f4bbb6fe2b17e3cc50362d99a223f5661"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-09e84841b7511b1301afdf0b093d7b04120c4d89-zip-5b421b.tar",
+                "reference": "09e84841b7511b1301afdf0b093d7b04120c4d89",
+                "shasum": "6ce65ff5310613622a4004cb4adc9d14ae290353"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -380,24 +380,24 @@
             ],
             "description": "Stock platform for CVHU",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.8.0",
+                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.8.2",
                 "issues": "https://github.com/solutions-cvhu/syncer/issues"
             },
-            "time": "2025-07-03T16:09:56+00:00"
+            "time": "2025-07-15T08:45:08+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-francecasse",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer-francecasse.git",
-                "reference": "18a999232972a27ec3605d6b2d7e1228f2f43a2a"
+                "reference": "64b1c22f1ab140e7229ad6e28d03d3f6274f862c"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-francecasse/solutions-cvhu-syncer-francecasse-18a999232972a27ec3605d6b2d7e1228f2f43a2a-zip-2c9c25.tar",
-                "reference": "18a999232972a27ec3605d6b2d7e1228f2f43a2a",
-                "shasum": "7bc3c664e72eb98cb34901a7b16efddbc55c9f7f"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-francecasse/solutions-cvhu-syncer-francecasse-64b1c22f1ab140e7229ad6e28d03d3f6274f862c-zip-a2a115.tar",
+                "reference": "64b1c22f1ab140e7229ad6e28d03d3f6274f862c",
+                "shasum": "8b4f1fb23a23604dab771d642e028e8ae0678865"
             },
             "require": {
                 "php": ">=8.2",
@@ -423,10 +423,10 @@
             ],
             "description": "Syncer module for France Casse",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer-francecasse/tree/v1.0.0",
+                "source": "https://github.com/solutions-cvhu/syncer-francecasse/tree/v1.1.0",
                 "issues": "https://github.com/solutions-cvhu/syncer-francecasse/issues"
             },
-            "time": "2025-07-01T18:20:47+00:00"
+            "time": "2025-07-16T09:38:03+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-module",
