@@ -335,17 +335,17 @@
         },
         {
             "name": "solutions-cvhu/syncer",
-            "version": "v1.8.2",
+            "version": "v1.8.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer.git",
-                "reference": "09e84841b7511b1301afdf0b093d7b04120c4d89"
+                "reference": "c1d9ed62f46e872cb8c13fea3ed179421b2ae8a2"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-09e84841b7511b1301afdf0b093d7b04120c4d89-zip-5b421b.tar",
-                "reference": "09e84841b7511b1301afdf0b093d7b04120c4d89",
-                "shasum": "6ce65ff5310613622a4004cb4adc9d14ae290353"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-c1d9ed62f46e872cb8c13fea3ed179421b2ae8a2-zip-8a9d72.tar",
+                "reference": "c1d9ed62f46e872cb8c13fea3ed179421b2ae8a2",
+                "shasum": "a526d26d25facf11b19ff53cae4f03b96156169e"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -380,10 +380,10 @@
             ],
             "description": "Stock platform for CVHU",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.8.2",
+                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.8.3",
                 "issues": "https://github.com/solutions-cvhu/syncer/issues"
             },
-            "time": "2025-07-15T08:45:08+00:00"
+            "time": "2025-07-16T12:23:50+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-francecasse",
