@@ -515,17 +515,17 @@
         },
         {
             "name": "solutions-cvhu/syncer-totalparts",
-            "version": "v1.0.5",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer-totalparts.git",
-                "reference": "6a903ebb7ace7dd77418ddf9d0ce3e1e4027103f"
+                "reference": "93d0ec5a8eac6b140cb6eae238877b51ac376b3b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-totalparts/solutions-cvhu-syncer-totalparts-6a903ebb7ace7dd77418ddf9d0ce3e1e4027103f-zip-48ed5a.tar",
-                "reference": "6a903ebb7ace7dd77418ddf9d0ce3e1e4027103f",
-                "shasum": "5ff6520aaab3053ec78edcfcbd38fa05ee807230"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-totalparts/solutions-cvhu-syncer-totalparts-93d0ec5a8eac6b140cb6eae238877b51ac376b3b-zip-268dbd.tar",
+                "reference": "93d0ec5a8eac6b140cb6eae238877b51ac376b3b",
+                "shasum": "2b0e77dcfa535cbba12dbee44293481606c81318"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -553,10 +553,10 @@
             ],
             "description": "Syncer module for TotalParts",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer-totalparts/tree/v1.0.5",
+                "source": "https://github.com/solutions-cvhu/syncer-totalparts/tree/v1.1.0",
                 "issues": "https://github.com/solutions-cvhu/syncer-totalparts/issues"
             },
-            "time": "2025-06-10T13:49:18+00:00"
+            "time": "2025-08-11T16:04:30+00:00"
         },
         {
             "name": "solutions-cvhu/totalparts-api",
