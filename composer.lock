@@ -253,17 +253,17 @@
         },
         {
             "name": "solutions-cvhu/opisto-api",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/opisto-api.git",
-                "reference": "c3d2a7c14f0e6c7ad13fcca245358c49b7548cd9"
+                "reference": "9d3ef5f23ed6b7141b4b57573b4f19f1332fcbf8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/opisto-api/solutions-cvhu-opisto-api-c3d2a7c14f0e6c7ad13fcca245358c49b7548cd9-zip-a5549a.tar",
-                "reference": "c3d2a7c14f0e6c7ad13fcca245358c49b7548cd9",
-                "shasum": "53a84d323772e3389f4396d4b62bc13dc1f6bb83"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/opisto-api/solutions-cvhu-opisto-api-9d3ef5f23ed6b7141b4b57573b4f19f1332fcbf8-zip-eab9ac.tar",
+                "reference": "9d3ef5f23ed6b7141b4b57573b4f19f1332fcbf8",
+                "shasum": "dac771cf673eedac731517a2a52c27e29fa836a6"
             },
             "require": {
                 "php": ">=8.2",
@@ -287,24 +287,24 @@
             ],
             "description": "Library for Opisto's API",
             "support": {
-                "source": "https://github.com/solutions-cvhu/opisto-api/tree/v1.1.2",
+                "source": "https://github.com/solutions-cvhu/opisto-api/tree/v1.1.3",
                 "issues": "https://github.com/solutions-cvhu/opisto-api/issues"
             },
-            "time": "2025-07-02T13:47:18+00:00"
+            "time": "2025-08-25T15:06:22+00:00"
         },
         {
             "name": "solutions-cvhu/ovoko-api",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/ovoko-api.git",
-                "reference": "75468fe4e7ffc224b4c44fa326fc9af794595b96"
+                "reference": "9a9f104bcccd71a73c0b79551bfb2e4e7dff2eab"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/ovoko-api/solutions-cvhu-ovoko-api-75468fe4e7ffc224b4c44fa326fc9af794595b96-zip-4648e8.tar",
-                "reference": "75468fe4e7ffc224b4c44fa326fc9af794595b96",
-                "shasum": "812296de917799025587a436e54504df74e3f6cc"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/ovoko-api/solutions-cvhu-ovoko-api-9a9f104bcccd71a73c0b79551bfb2e4e7dff2eab-zip-ec8dea.tar",
+                "reference": "9a9f104bcccd71a73c0b79551bfb2e4e7dff2eab",
+                "shasum": "67e5389bbf72ed5b97a380c114b96fab14832edd"
             },
             "require": {
                 "php": ">=8.2",
@@ -328,24 +328,24 @@
             ],
             "description": "Library for Ovoko's API",
             "support": {
-                "source": "https://github.com/solutions-cvhu/ovoko-api/tree/v1.1.1",
+                "source": "https://github.com/solutions-cvhu/ovoko-api/tree/v1.1.2",
                 "issues": "https://github.com/solutions-cvhu/ovoko-api/issues"
             },
-            "time": "2025-05-23T12:16:29+00:00"
+            "time": "2025-08-25T15:06:57+00:00"
         },
         {
             "name": "solutions-cvhu/syncer",
-            "version": "v1.8.3",
+            "version": "v1.9.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer.git",
-                "reference": "c1d9ed62f46e872cb8c13fea3ed179421b2ae8a2"
+                "reference": "315f93871a97e29b423fced370182a064d5e1d5e"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-c1d9ed62f46e872cb8c13fea3ed179421b2ae8a2-zip-8a9d72.tar",
-                "reference": "c1d9ed62f46e872cb8c13fea3ed179421b2ae8a2",
-                "shasum": "a526d26d25facf11b19ff53cae4f03b96156169e"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer/solutions-cvhu-syncer-315f93871a97e29b423fced370182a064d5e1d5e-zip-803733.tar",
+                "reference": "315f93871a97e29b423fced370182a064d5e1d5e",
+                "shasum": "0bb1d4ada0acb98179ce25bd8b83ffeaa2998e46"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -380,10 +380,10 @@
             ],
             "description": "Stock platform for CVHU",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.8.3",
+                "source": "https://github.com/solutions-cvhu/syncer/tree/v1.9.3",
                 "issues": "https://github.com/solutions-cvhu/syncer/issues"
             },
-            "time": "2025-07-16T12:23:50+00:00"
+            "time": "2025-08-25T13:56:37+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-francecasse",
@@ -470,17 +470,17 @@
         },
         {
             "name": "solutions-cvhu/syncer-ovoko",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer-ovoko.git",
-                "reference": "8364a4c4a35a4115824d367ff490e7f9a91c4000"
+                "reference": "1b9c40d0dac6038c8a05077a0b0a5fc260382b65"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-ovoko/solutions-cvhu-syncer-ovoko-8364a4c4a35a4115824d367ff490e7f9a91c4000-zip-7bf788.tar",
-                "reference": "8364a4c4a35a4115824d367ff490e7f9a91c4000",
-                "shasum": "359bad969b93784cbe718731b58c76a561fc59b9"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-ovoko/solutions-cvhu-syncer-ovoko-1b9c40d0dac6038c8a05077a0b0a5fc260382b65-zip-5371eb.tar",
+                "reference": "1b9c40d0dac6038c8a05077a0b0a5fc260382b65",
+                "shasum": "079131fead9dfd7f6fdc3b17477b803df10bfa49"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -508,10 +508,10 @@
             ],
             "description": "Syncer module for Ovoko",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer-ovoko/tree/v1.1.0",
+                "source": "https://github.com/solutions-cvhu/syncer-ovoko/tree/v1.2.0",
                 "issues": "https://github.com/solutions-cvhu/syncer-ovoko/issues"
             },
-            "time": "2025-07-02T10:29:26+00:00"
+            "time": "2025-08-25T10:06:01+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-totalparts",
@@ -601,16 +601,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.4.23",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "9056771b8eca08d026cd3280deeec3cfd99c4d93"
+                "reference": "59266a5bf6a596e3e0844fd95e6ad7ea3c1d3350"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/9056771b8eca08d026cd3280deeec3cfd99c4d93",
-                "reference": "9056771b8eca08d026cd3280deeec3cfd99c4d93",
+                "url": "https://api.github.com/repos/symfony/console/zipball/59266a5bf6a596e3e0844fd95e6ad7ea3c1d3350",
+                "reference": "59266a5bf6a596e3e0844fd95e6ad7ea3c1d3350",
                 "shasum": ""
             },
             "require": {
@@ -675,7 +675,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.4.23"
+                "source": "https://github.com/symfony/console/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -687,11 +687,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-27T19:37:22+00:00"
+            "time": "2025-07-30T10:38:54+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -762,16 +766,16 @@
         },
         {
             "name": "symfony/lock",
-            "version": "v6.4.13",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/lock.git",
-                "reference": "a69c3dd151ab7e14925f119164cfdf65d55392a4"
+                "reference": "85ca8b5501a3ccac7d749e632e6fde5bf962bef0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/lock/zipball/a69c3dd151ab7e14925f119164cfdf65d55392a4",
-                "reference": "a69c3dd151ab7e14925f119164cfdf65d55392a4",
+                "url": "https://api.github.com/repos/symfony/lock/zipball/85ca8b5501a3ccac7d749e632e6fde5bf962bef0",
+                "reference": "85ca8b5501a3ccac7d749e632e6fde5bf962bef0",
                 "shasum": ""
             },
             "require": {
@@ -821,7 +825,7 @@
                 "semaphore"
             ],
             "support": {
-                "source": "https://github.com/symfony/lock/tree/v6.4.13"
+                "source": "https://github.com/symfony/lock/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -833,15 +837,19 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-25T15:19:46+00:00"
+            "time": "2025-07-30T11:02:24+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -900,7 +908,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -912,6 +920,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
@@ -920,16 +932,16 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe"
+                "reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
-                "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/380872130d3a5dd3ace2f4010d95125fde5d5c70",
+                "reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70",
                 "shasum": ""
             },
             "require": {
@@ -978,7 +990,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -990,15 +1002,19 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2025-06-27T09:58:17+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -1059,7 +1075,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -1071,6 +1087,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
@@ -1079,7 +1099,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.32.0",
+            "version": "v1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -1140,7 +1160,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.32.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
             },
             "funding": [
                 {
@@ -1149,6 +1169,10 @@
                 },
                 {
                     "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
@@ -1243,16 +1267,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.4.21",
+            "version": "v6.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "73e2c6966a5aef1d4892873ed5322245295370c6"
+                "reference": "f0ce0bd36a3accb4a225435be077b4b4875587f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/73e2c6966a5aef1d4892873ed5322245295370c6",
-                "reference": "73e2c6966a5aef1d4892873ed5322245295370c6",
+                "url": "https://api.github.com/repos/symfony/string/zipball/f0ce0bd36a3accb4a225435be077b4b4875587f4",
+                "reference": "f0ce0bd36a3accb4a225435be077b4b4875587f4",
                 "shasum": ""
             },
             "require": {
@@ -1309,7 +1333,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.4.21"
+                "source": "https://github.com/symfony/string/tree/v6.4.24"
             },
             "funding": [
                 {
@@ -1321,11 +1345,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-18T15:23:29+00:00"
+            "time": "2025-07-10T08:14:14+00:00"
         },
         {
             "name": "symfony/translation-contracts",
