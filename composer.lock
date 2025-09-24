@@ -294,17 +294,17 @@
         },
         {
             "name": "solutions-cvhu/ovoko-api",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/ovoko-api.git",
-                "reference": "d3c8568d0a2bb347f888c2ff6b66ddbd56d2bbe8"
+                "reference": "f60c0b2c34264cd5de21f644d843640bbb8a22b0"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/ovoko-api/solutions-cvhu-ovoko-api-d3c8568d0a2bb347f888c2ff6b66ddbd56d2bbe8-zip-c24d41.tar",
-                "reference": "d3c8568d0a2bb347f888c2ff6b66ddbd56d2bbe8",
-                "shasum": "5c2b4424b1135db4cc4a96fc54cbd01b0f46c236"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/ovoko-api/solutions-cvhu-ovoko-api-f60c0b2c34264cd5de21f644d843640bbb8a22b0-zip-542cbb.tar",
+                "reference": "f60c0b2c34264cd5de21f644d843640bbb8a22b0",
+                "shasum": "85ef321e1dd0c66365851fad748d35be63be38a7"
             },
             "require": {
                 "php": ">=8.2",
@@ -328,10 +328,10 @@
             ],
             "description": "Library for Ovoko's API",
             "support": {
-                "source": "https://github.com/solutions-cvhu/ovoko-api/tree/v1.2.1",
+                "source": "https://github.com/solutions-cvhu/ovoko-api/tree/v1.2.2",
                 "issues": "https://github.com/solutions-cvhu/ovoko-api/issues"
             },
-            "time": "2025-09-09T09:13:30+00:00"
+            "time": "2025-09-23T08:57:10+00:00"
         },
         {
             "name": "solutions-cvhu/syncer",
@@ -470,17 +470,17 @@
         },
         {
             "name": "solutions-cvhu/syncer-ovoko",
-            "version": "v1.3.1",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer-ovoko.git",
-                "reference": "2874cad2b3ce76f1a84659de14256eb525208205"
+                "reference": "f2c1652e903f541f611d4d2194eb65dbe7d8be17"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-ovoko/solutions-cvhu-syncer-ovoko-2874cad2b3ce76f1a84659de14256eb525208205-zip-3ce337.tar",
-                "reference": "2874cad2b3ce76f1a84659de14256eb525208205",
-                "shasum": "f86c60174ee02444c8ead74f79204ac2fe949bb4"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-ovoko/solutions-cvhu-syncer-ovoko-f2c1652e903f541f611d4d2194eb65dbe7d8be17-zip-49d61f.tar",
+                "reference": "f2c1652e903f541f611d4d2194eb65dbe7d8be17",
+                "shasum": "8d0deb1dc3ab48be453d080af214e1d7ac37aeb3"
             },
             "require": {
                 "bouilhac/dbimporter-lib": "*",
@@ -508,10 +508,10 @@
             ],
             "description": "Syncer module for Ovoko",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer-ovoko/tree/v1.3.1",
+                "source": "https://github.com/solutions-cvhu/syncer-ovoko/tree/v1.4.0",
                 "issues": "https://github.com/solutions-cvhu/syncer-ovoko/issues"
             },
-            "time": "2025-09-09T09:11:09+00:00"
+            "time": "2025-09-24T15:11:38+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-totalparts",
