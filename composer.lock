@@ -387,17 +387,17 @@
         },
         {
             "name": "solutions-cvhu/syncer-francecasse",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutions-cvhu/syncer-francecasse.git",
-                "reference": "069d8af1d3aeadec12dc0811401185c930a26077"
+                "reference": "30d0e7cdcdb79cd0f97e45f176cf3f13008e0e99"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-francecasse/solutions-cvhu-syncer-francecasse-069d8af1d3aeadec12dc0811401185c930a26077-zip-7e0e9e.tar",
-                "reference": "069d8af1d3aeadec12dc0811401185c930a26077",
-                "shasum": "412b0ec7e9123755f432cb278a49dbe5b66fe617"
+                "url": "https://satis.solutions-cvhu.fr/dist/solutions-cvhu/syncer-francecasse/solutions-cvhu-syncer-francecasse-30d0e7cdcdb79cd0f97e45f176cf3f13008e0e99-zip-524017.tar",
+                "reference": "30d0e7cdcdb79cd0f97e45f176cf3f13008e0e99",
+                "shasum": "833fd03aab7938970811a13c14e4cf9be361b9b9"
             },
             "require": {
                 "php": ">=8.2",
@@ -423,10 +423,10 @@
             ],
             "description": "Syncer module for France Casse",
             "support": {
-                "source": "https://github.com/solutions-cvhu/syncer-francecasse/tree/v1.1.1",
+                "source": "https://github.com/solutions-cvhu/syncer-francecasse/tree/v1.1.2",
                 "issues": "https://github.com/solutions-cvhu/syncer-francecasse/issues"
             },
-            "time": "2026-03-30T08:28:52+00:00"
+            "time": "2026-03-30T08:32:04+00:00"
         },
         {
             "name": "solutions-cvhu/syncer-module",
