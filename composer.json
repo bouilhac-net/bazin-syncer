@@ -12,9 +12,10 @@
         "solutions-cvhu/syncer-francecasse": "^1.0"
     },
     "scripts": {
-        "post-install-cmd": "@installAdmin",
-        "post-update-cmd": "@installAdmin",
-        "installAdmin": "cp -r ./vendor/solutions-cvhu/syncer/web/ ./"
+        "post-install-cmd": ["@installAdmin", "@installOvokoWebhook"],
+        "post-update-cmd": ["@installAdmin", "@installOvokoWebhook"],
+        "installAdmin": "cp -r ./vendor/solutions-cvhu/syncer/web/ ./",
+        "installOvokoWebhook": "cp ./vendor/solutions-cvhu/syncer-ovoko/web/public/* ./web/public/"
     },
     "autoload": {
         "psr-4": {

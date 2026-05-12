@@ -29,8 +29,7 @@ services:
       - "/home/docker/syncer/files/nginx/nginx.conf.prod:/etc/nginx/nginx.conf"
       - "/home/docker/syncer:/app"
     environment:
+      - VIRTUAL_HOST=bazin.sync.solutions-cvhu.fr
+      - LETSENCRYPT_HOST=bazin.sync.solutions-cvhu.fr
       - TZ=Europe/Paris
-    ports:
-      - "80:80"
-      - "443:443"
     restart: always
