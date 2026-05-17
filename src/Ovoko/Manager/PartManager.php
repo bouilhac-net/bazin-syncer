@@ -10,6 +10,6 @@ class PartManager extends \SolutionsCVHU\Syncer\Ovoko\Manager\PartManager
                 opisto_part.available = 1 AND
                 opisto_part.for_sale = 1 AND
                 opisto_part.in_stock = 1 AND
-                opisto_part.has_photos = 1';
+                opisto_part.has_photos = 1 ';
     }
 }
